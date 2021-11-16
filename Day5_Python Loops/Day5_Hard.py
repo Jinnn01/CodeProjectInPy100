@@ -28,5 +28,11 @@ for i in range(nr_numbers):
     random_list.append(random_num)
 
 # randomly get the element in random list
-random_password = "".join(random.sample(random_list,len(random_list)))
-print(f"There is your random password:{random_password}")
+# sample不改变原list
+random_sample_result = random.sample(random_list,len(random_list))
+random_password = "".join(random_sample_result )
+# shuffle() 直接改变原list，变为想要的值
+random.shuffle(random_list)
+random_password1 = "".join(random_list)
+print(f"There is your random password with sample function:{random_password}")
+print(f"There is your random password with shuffle function:{random_password1}")
