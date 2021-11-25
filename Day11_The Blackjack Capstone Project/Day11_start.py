@@ -116,7 +116,6 @@ def more_round(user_card):
                 Type 'y' to get another card, type 'n' to pass:
                 '''
 
-        # compare and print
 
 
 while True:
