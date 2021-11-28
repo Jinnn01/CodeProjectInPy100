@@ -1,0 +1,44 @@
+{
+ "cells": [],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 2
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython2",
+   "version": "2.7.6"
+  },
+  "pycharm": {
+   "stem_cell": {
+    "cell_type": "raw",
+    "source": [
+     "1. Describe the problem\n",
+     "2. Reproduce the Bug\n",
+     "3. Play Computer\n",
+     "4. Fixing errors\n",
+     "5. Print statement\n",
+     "6. Using a debugger\n",
+     "7. Have a break\n",
+     "8. Ask a friend\n",
+     "9. Run often: once change something , run that\n",
+     "10. Ask StackFlow"
+    ],
+    "metadata": {
+     "collapsed": false
+    }
+   }
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 0
+}
