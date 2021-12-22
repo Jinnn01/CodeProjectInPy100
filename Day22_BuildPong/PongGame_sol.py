@@ -27,7 +27,7 @@ game_screen.onkey(left_paddle.go_down, "s")
 
 game_is_on = True
 while game_is_on:
-    time.sleep(0.1)
+    time.sleep(ball.move_speed)
     game_screen.update()
     ball.move()
 
@@ -39,17 +39,14 @@ while game_is_on:
     if ball.distance(right_paddle) < 50 and ball.xcor() > 320 or\
             ball.distance(left_paddle)<50 and ball.xcor() < -320:
         ball.bounce_x()
-        ball.speed_up()
 
     # Detect when paddle misses
     if ball.xcor() > 380:
         ball.reset_pos()
-        ball.reset_speed()
         score_board.l_point()
 
     if ball.xcor() < -380:
         ball.reset_pos()
-        ball.reset_speed()
         score_board.r_point()
 
 
