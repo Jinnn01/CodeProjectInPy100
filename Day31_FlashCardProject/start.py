@@ -16,7 +16,7 @@ try:
         "/Users/amber_xin/Documents/自学/udemy/100 _codes_py/Day31_FlashCardProject/data/words_to_learn.csv")
 except FileNotFoundError:
     word_list = pd.read_csv(
-        "/Users/amber_xin/Documents/自学/udemy/100 _codes_py/Day31_FlashCardProject/data/wordlist.csv")
+        "/Users/amber_xin/Documents/自学/udemy/100 _codes_py/Day31_FlashCardProject/data/wordlist1.csv")
 finally:
     word_dict_list = word_list.to_dict(orient="records")
 
@@ -47,6 +47,7 @@ def remove_word():
     unknown_word = pandas.DataFrame(word_dict_list)
     unknown_word.to_csv(
         "/Users/amber_xin/Documents/自学/udemy/100 _codes_py/Day31_FlashCardProject/data/words_to_learn.csv", index=False)
+    generate_word()
 
 
 # set up gui interface
